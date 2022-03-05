@@ -1,0 +1,89 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .header-container h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+    
+  }
+  
+  /* モバイル向けレイアウト */
+  @media all and (max-width: 670px) {
+    .bars {
+      display: block;
+    }
+    
+    .fuwafuwa-girl {
+      width: 0px;
+      height: 0px;
+    }
+
+    .fuwafuwa-boy {
+      left: 60%;
+    }
+
+    .flag {
+      width: 0px;
+      height: 0px;
+    }
+
+    .ic {
+      width: 0px;
+      height: 0px;
+    }
+
+    .smart-phone {
+      left: 10%;
+    }
+
+    .bag {
+      left: 34%;
+      top: 108%;
+    }
+
+    .key {
+      left: 60%;
+    }
+
+    .cloud_1 {
+      top: -15%;
+      left: 10%;
+    }
+    
+    .airplane {
+      animation: fuwafuwa 3s infinite ease-in-out .8s alternate;
+      background: url(im-airplane.png) no-repeat center center / 110px auto;
+      display: inline-block;
+      transition: 1.5s ease-in-out;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: -30%;
+      left: 70%;
+    }
+
+    .header-right {
+      display: none;
+    }
+    
+    .header-container h1 {
+      font-size: 24px;
+      text-align: left;
+    }
+    
+    .header-txt {
+      font-size: 14px;
+      text-align: left;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+    
+    .lesson {
+      width: 100%;
+    }
+  }
