@@ -53,6 +53,10 @@
       top: -15%;
       left: 10%;
     }
+      
+    .cloud_2 {
+      left: 73%;
+    }
     
     .airplane {
       animation: fuwafuwa 3s infinite ease-in-out .8s alternate;
